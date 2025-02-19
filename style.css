@@ -38,14 +38,22 @@ li{
 section:nth-child(Even){
     background-color: #f8f8f8;
 }
+.container{
+    padding: 50px 0;
+}
+.section__title{
+    margin-bottom: 20px;
+}
+
 /* Navigation Bar*/
+
 nav{
     height: 100px;
     max-width: 1000px;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 0 12px;
 }
@@ -76,7 +84,9 @@ nav{
     margin: 0 12px;
     font-weight: bold;
 }
+
 /* about me */
+
 #about-me{
       min-height: 100vh;
       display: flex;
@@ -128,4 +138,18 @@ padding-top: 14px;
 }
 .about-me__img{
     width: 100%;
+}
+
+/* tech stack */.
+
+.language__img{
+    width: 100px;
+    max-width: 100px;
+}
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%
+
 }
